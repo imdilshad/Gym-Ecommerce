@@ -1,0 +1,43 @@
+.custom2{
+  font-size: 15px;
+}
+.about-photo{
+  height:500px ;
+  width: 450px;
+}
+.rectangle-img{
+  /* background-image: url('../../assets/about.png'); */
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+
+}
+@media (max-width: 479px) {
+  
+  
+  .custom2{
+    font-size: 15px;
+  }
+  
+  .about-photo{
+    height:500px ;
+    width: 220px;
+  }
+}
+@media (max-width: 767px) {
+  .custom2{
+    font-size: 9px;
+  }
+  
+  .about-photo{
+    height:500px ;
+    width: 380px;
+    background-size: cover;
+    
+}
+}
+@media (max-width:377px) {
+.about-photo{
+  width:270px
+}
+}

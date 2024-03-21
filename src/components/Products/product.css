@@ -1,0 +1,57 @@
+.custom1{
+  font-size: 20px;
+}
+.cart{
+  font-size: 15px;
+}
+.product-image{
+  width: 80px;
+}
+ 
+ 
+/* for Mobile Screen */
+@media (max-width: 767px) {
+  .custom1{
+    font-size: 15px;
+  } 
+  .cart{
+    font-size: 0.7rem;
+  }
+  .cart1{
+    font-size: 0.7rem;
+  }
+  .new{
+    width: 150px;
+    margin-right: 7px;
+  }
+}
+/* for Iphone 12 */
+@media (min-width:377px) and (max-width: 400px) {
+  .new{
+    width: 140px;
+  }
+
+}
+/* for Tablets  */
+@media (min-width: 768px) and (max-width:930px){
+  .new{
+    width: 140px;
+  }
+  .cart{
+    font-size: 0.7rem;
+  }
+  .cart1{
+    font-size: 0.9rem;
+  }
+}
+@media (max-width:377px) {
+  .new{
+    width: 270px;
+  }
+  .cart{
+    font-size: 3vh;
+  }
+  .cart1{
+    font-size: 3vh;
+  }
+}

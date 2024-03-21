@@ -1,0 +1,25 @@
+.custom{
+  font-size: 15px;
+}
+
+
+@media (max-width: 479px) {
+  
+  h5{
+    font-size: 10px;
+  }
+  .custom{
+    font-size: 5px;
+  }
+  
+}
+@media (max-width: 767px) {
+  .custom{
+    font-size: 12px;
+  }
+  
+  h5{
+     font-size: 18px;
+   }
+    
+}

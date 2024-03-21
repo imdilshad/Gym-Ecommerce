@@ -1,0 +1,36 @@
+.hero{
+  height:400px
+}
+.hero-img{
+  background-image: url('../../assets/hero.png');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.gym{
+font-size: 13vh;
+}
+@media (max-width: 479px) {
+  .hero{
+  height: 190px;
+  }
+  .custom3{
+    font-size: 0.7vh;
+  }
+  .gym{
+    font-size: 3.5vh;
+    }
+}
+@media (max-width: 769px) {
+  .hero{
+  height: 190px;
+}
+.custom3{
+  font-size: 1.9vh;
+}
+}
+@media (min-width: 768px) and (max-width:930px){
+  .gym{
+    font-size: 5vh;
+  }
+}
