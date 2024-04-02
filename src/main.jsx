@@ -11,6 +11,9 @@ import Cart from './components/Cart/Cart.jsx'
 import CheckOut from './components/CheckOut/CheckOut.jsx'
 import { Provider } from 'react-redux'
 import store from './store/Store.js'
+import Products from './components/Products/Products.jsx'
+import AboutUS from './components/aboutUs/AboutUS.jsx'
+import ContactUs from './components/contact/ContactUs.jsx'
 
 const router=createBrowserRouter([{
   path:'/',
@@ -34,6 +37,18 @@ const router=createBrowserRouter([{
 {
   path:'cart/checkout',
   element:<CheckOut/>
+},
+{
+  path:'products',
+  element:<Products/>
+},
+{
+  path:'aboutUS',
+  element:<AboutUS/>
+},
+{
+  path:'contactUS',
+  element:<ContactUs/>
 },
 ]
 }])

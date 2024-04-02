@@ -5,24 +5,41 @@
   font-size: 15px;
 }
 .product-image{
-  width: 80px;
+  width: 205px;
+  height:150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
- 
+.product-card{
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+}
+.product-buttons{
+ width:200px
+}
+ .new{
+width:230px
+ }
  
 /* for Mobile Screen */
 @media (max-width: 767px) {
   .custom1{
-    font-size: 15px;
+    font-size: 18px;
   } 
   .cart{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .cart1{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
+  .product-buttons{
+    width:130px
+   }
   .new{
     width: 150px;
     margin-right: 7px;
+  }
+  .product-image{
+    width: 110px;
+    height:80px;
   }
 }
 /* for Iphone 12 */
@@ -30,6 +47,11 @@
   .new{
     width: 140px;
   }
+  .product-image{
+    width: 110px;
+    height:80px;
+  }
+  
 
 }
 /* for Tablets  */
@@ -43,6 +65,13 @@
   .cart1{
     font-size: 0.9rem;
   }
+  .product-image{
+    width: 130px;
+    height:100px;
+  }
+  .product-buttons{
+   width:132px
+  }
 }
 @media (max-width:377px) {
   .new{
@@ -54,4 +83,12 @@
   .cart1{
     font-size: 3vh;
   }
+  .product-image{
+    width: 200px;
+    height:170px;
+    
+  }
+  .product-buttons{
+    width:220px
+   }
 }

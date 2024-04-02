@@ -10,7 +10,7 @@ function Headers() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <Link className="navbar-brand col-lg-3 me-0 text-danger fw-bolder d-md-none" to={'/'}>IronHaven</Link> 
+        <Link className="navbar-brand col-lg-3 me-0 text-danger fw-bolder d-md-none  " to={'/'}>IronHaven</Link> 
         <div>
         <Link to={'cart'}><button className="btn text-danger d-md-none ">
           <i className="fa-solid fs-3 fa-cart-shopping"></i>
@@ -22,22 +22,22 @@ function Headers() {
         </div>
 
         <div className="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-          <Link className="navbar-brand col-lg-3 me-0 text-danger fw-bolder d-none d-md-block" to={'/'}>IronHaven</Link> 
+          <Link className="navbar-brand col-lg-3 me-0 text-danger fw-bolder d-none d-md-block " to={'/'}>IronHaven</Link> 
           <ul className="navbar-nav col-lg-6 justify-content-lg-center">
-            <li className="nav-item">
-              <Link className="nav-link " aria-current="page" to={''}>Home</Link>
+            <li className="nav-item ">
+              <Link className="nav-link  " aria-current="page" to={''}>Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#categories">Categories</a>
+              <Link className="nav-link" href="#categories">Categories</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href='#product'>Product</a>
+              <Link className="nav-link "to={'products'}>Product</Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link " href="#about">About us</a>
+              <Link className="nav-link " to={"aboutUS"}>About us</Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link " href="#contact">Contact us</a>
+              <Link className="nav-link " to={"contactUS"}>Contact us</Link>
             </li>
           </ul>
           <div className="d-lg-flex col-lg-3 justify-content-lg-end gap-2 justify-content-center d-flex flex-md-row">
@@ -45,7 +45,7 @@ function Headers() {
             <i className="fa-solid fs-3 fa-cart-shopping"></i>
             <span className="badge bg-danger rounded-pill ">{items.length}</span>
             </button></Link>
-            <Link to={'login'} className='d-none d-md-block' ><button className="btn btn-danger  rounded-pill ">Login </button></Link>
+            <Link to={'login'} className='d-none d-md-block' ><button className="btn btn-danger Nav-button rounded-pill ">Login </button></Link>
         <Link to={'signup'} className='d-none d-md-block'><button className="btn btn-outline-danger rounded-pill     ">SignUp</button></Link>
           </div>
         </div>

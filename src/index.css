@@ -3,3 +3,12 @@ body {
 font-family: "Roboto Condensed", sans-serif;
 
 }
+.Nav-button:hover{
+  background-color: white;
+  color: #dc3545;
+  font-weight: bold;
+
+}
+.nav-link:hover{
+  color:#dc3545
+}

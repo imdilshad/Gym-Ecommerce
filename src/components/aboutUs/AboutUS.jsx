@@ -5,12 +5,12 @@ function AboutUS() {
   return (
     <div className='d-md-flex py-4 my-3 'id='about'>
      
-      <div className='col-md-7 col rectangle-img'>
+      <div className='col-md-5 col rectangle-img'>
        <div className="container d-md-flex justify-content-center rectangle-img1 "> 
        <img src={about} className='about-photo mb-5'  alt="" />   
        </div>
       </div>
-      <div className='col-md-5 col d-flex flex-column justify-content-evenly px-md-5 px-3 '>
+      <div className='col-md-7 col d-flex flex-column justify-content-evenly px-md-5 px-3 '>
         <h2>About Us</h2>
   <span className=' text-start custom2 mb-2 fs-6' >At Iron haven, we believe that fitness should be accessible to everyone, regardless of their location or schedule. That's why we've created an online platform where you can find everything you need to reach your fitness goals from the comfort of your own home.</span>
   <span className='custom2 text-start mb-3 fs-6'>Our journey began with a simple idea: to provide high-quality fitness equipment and accessories at affordable prices, delivered straight to your doorstep. Whether you're a seasoned athlete or just starting your fitness journey, we're here to support you every step of the way.</span>

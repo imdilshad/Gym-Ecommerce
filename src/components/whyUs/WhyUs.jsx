@@ -6,7 +6,7 @@ function WhyUs() {
     <div>
       <div className="container-fluid text-white bg-black py-5 px-5">
         <span className='fs-3 my-2'>Why Us</span>
-        <div className='row  d-flex justify-content-evenly flex-wrap'>
+        <div className='row  d-flex justify-content-evenly flex-wrap mt-3'>
         <div className="col-4 d-flex flex-column justify-content-center align-items-center">
           <span className='fs-1' style={{color:'#dc2626'}}><i className="fa-solid fa-cart-shopping"></i></span>
           <div className='custom'>

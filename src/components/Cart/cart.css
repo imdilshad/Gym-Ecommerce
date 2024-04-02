@@ -1,6 +1,22 @@
-.checkout{
+/* .checkout{
   font-size: 12px;
-}
+} */
 .cart-image{
-  width:100px
+  width:200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media  (max-width:767px){
+  .cart-image{
+    width:140px
+  }
+}
+@media (min-width:1000px) and (max-width:1140px){
+  .cart-image{
+    width:170px
+  }
+}
+@media (min-width:768px) and (max-width:1000px){
+  .cart-image{
+    width:130px
+  }
 }
