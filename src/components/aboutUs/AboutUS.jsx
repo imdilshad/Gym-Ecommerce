@@ -7,7 +7,7 @@ function AboutUS() {
      
       <div className='col-md-5 col rectangle-img'>
        <div className="container d-md-flex justify-content-center rectangle-img1 "> 
-       <img src={about} className='about-photo mb-5'  alt="" />   
+       <img src={about} className='about-photo mb-5 rounded'  alt="" />   
        </div>
       </div>
       <div className='col-md-7 col d-flex flex-column justify-content-evenly px-md-5 px-3 '>
