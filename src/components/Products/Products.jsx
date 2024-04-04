@@ -32,7 +32,7 @@ function Products() {
     <div className='bg-black py-3 mb-3' id='product'>
       <h2 className='text-white mb-3'>Products</h2>
       <div className='container-fluid  px-4 d-flex justify-content-center'>
-    <div className="row px-4  py-2 container  d-flex justify-content-center ">
+    <div className="row px-2 px-md-4  py-2 container  d-flex justify-content-center ">
 
     {products.map((product)=>{
       

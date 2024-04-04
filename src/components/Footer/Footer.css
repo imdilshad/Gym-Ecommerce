@@ -2,7 +2,24 @@
   background-color: #dc2626;
   border-radius: 0px 0px 20px 20px;
 }
-.social:hover{
-color:#dc2626;
-transition: 0.5s ease;
+.fa-instagram:hover{
+color:#ea4c89;
+transition: 0.3s ease;
 }
+.fa-facebook:hover{
+color:#4267B2;
+transition: 0.3s ease;
+}
+.fa-twitter:hover{
+color:#1DA1F2;
+transition: 0.3s ease;
+}
+.fa-whatsapp:hover{
+color:#25D366;
+transition: 0.3s ease;
+}
+.fa-youtube:hover{
+color:#FF0000;
+transition: 0.3s ease;
+}
+

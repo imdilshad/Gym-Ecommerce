@@ -2,6 +2,7 @@ import React from 'react'
 import '../Footer/Footer.css'
 import {Link} from 'react-router-dom'
 function Footer() {
+  
   return (
     <div className="container-fluid bg-black text-white">
   <footer className="pb-2 mb-4 d-flex flex-column align-items-center gap-3" >
@@ -18,11 +19,11 @@ function Footer() {
     <div>
       <span>Our Socials</span>
       <ul className="nav justify-content-center  pb-2 mb-3">
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className=" social fa-brands fa-whatsapp"></i></a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className=" social fa-brands fa-facebook"></i></a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className=" social fa-brands fa-twitter"></i></a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className=" social fa-brands fa-instagram"></i></a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className=" social fa-brands fa-youtube"></i></a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4 "><i className="  fa-brands fa-whatsapp"></i></a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className="  fa-brands fa-facebook"></i></a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className="  fa-brands fa-twitter"></i></a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className="  fa-brands fa-instagram"></i></a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-light fs-4"><i className="  fa-brands fa-youtube"></i></a></li>
 
       </ul>
     </div>

@@ -7,7 +7,7 @@ function ContactUs() {
       <div className="container px-5 d-flex  flex-column justify-content-center align-items-center">
         <span className='fw-bold py-3 fs-2'>Reviews</span>
         <div className=" w-75 row w-full d-flex  flex-row justify-content-between">
-      <div className="  bg-dark rounded text-white px-2 py-1 h-7 mb-2"  style={{width:'18rem'}}>
+      <div className="  bg-dark rounded text-white px-2 py-1 h-7 mb-4 review"  style={{width:'18rem'}}>
       <div className="mt-2">
     <p className="">"Fast shipping,grate prices and top-quality gear.Highly recommended!"</p>
    <div className='d-flex justify-content-between'>  
@@ -17,7 +17,7 @@ function ContactUs() {
   </div>
   </div>
        </div>
-      <div className="  bg-dark rounded text-white px-2 py-1 h-7 mb-2"  style={{width:'18rem'}}>
+      <div className="  bg-dark rounded text-white px-2 py-1 h-7 mb-4 review"  style={{width:'18rem'}}>
       <div className="mt-2">
     <p className="">"Fast shipping,grate prices and top-quality gear.Highly recommended!"</p>
    <div className='d-flex justify-content-between'>  
@@ -29,7 +29,7 @@ function ContactUs() {
        </div>
       </div>
         <div className=" w-75 row w-full d-flex  flex-row justify-content-between">
-      <div className="  bg-dark rounded text-white px-2 py-1 h-7 mb-2"  style={{width:'18rem'}}>
+      <div className="  bg-dark rounded text-white px-2 py-1 h-7 mb-4 review"  style={{width:'18rem'}}>
       <div className="mt-2">
     <p className="">"Fast shipping,grate prices and top-quality gear.Highly recommended!"</p>
    <div className='d-flex justify-content-between'>  
@@ -39,7 +39,7 @@ function ContactUs() {
   </div>
   </div>
        </div>
-      <div className="  bg-dark rounded text-white px-2 py-1 h-7 "  style={{width:'18rem'}}>
+      <div className="  bg-dark rounded text-white px-2 py-1 h-74 mb-4 review"  style={{width:'18rem'}}>
       <div className="mt-2">
     <p className="">"Fast shipping,grate prices and top-quality gear.Highly recommended!"</p>
    <div className='d-flex justify-content-between'>  

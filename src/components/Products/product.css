@@ -9,6 +9,12 @@
   height:150px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.product-image:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  transition: .3s ease;
+}
+
 .product-card{
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
 }
@@ -31,10 +37,10 @@ width:230px
     font-size: 0.9rem;
   }
   .product-buttons{
-    width:130px
+    width:155px
    }
   .new{
-    width: 150px;
+    width: 167px;
     margin-right: 7px;
   }
   .product-image{

@@ -1,8 +1,11 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink,Link} from 'react-router-dom'
 import {useSelector} from 'react-redux'
+import { useState } from 'react'
 function Headers() {
   const items= useSelector((state)=>state.cart)
+  const [active,setActive]=useState('active')
+  const currentPath=window.location.pathname;
   return (
     <nav className="navbar navbar-expand-lg bg-body-light " aria-label="Thirteenth navbar example" >
       <div className="container-fluid">
@@ -25,19 +28,19 @@ function Headers() {
           <Link className="navbar-brand col-lg-3 me-0 text-danger fw-bolder d-none d-md-block " to={'/'}>IronHaven</Link> 
           <ul className="navbar-nav col-lg-6 justify-content-lg-center">
             <li className="nav-item ">
-              <Link className="nav-link  " aria-current="page" to={''}>Home</Link>
+              <NavLink className= 'nav-link ' activeClassName='active text-danger' aria-current="page" to={''} >Home</NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="#categories">Categories</Link>
+              <NavLink className="nav-link" to={''} href="#categories">Categories</NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link "to={'products'}>Product</Link>
+              <NavLink className="nav-link "to={'products'}>Product</NavLink>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link " to={"aboutUS"}>About us</Link>
+              <NavLink className="nav-link " to={"aboutUS"}>About us</NavLink>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link " to={"contactUS"}>Contact us</Link>
+              <NavLink className="nav-link " to={"contactUS"}>Contact us</NavLink>
             </li>
           </ul>
           <div className="d-lg-flex col-lg-3 justify-content-lg-end gap-2 justify-content-center d-flex flex-md-row">

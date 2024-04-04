@@ -12,3 +12,7 @@ font-family: "Roboto Condensed", sans-serif;
 .nav-link:hover{
   color:#dc3545
 }
+.active{
+  color: #dc3545;
+  
+}
