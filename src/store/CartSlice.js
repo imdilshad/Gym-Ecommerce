@@ -26,16 +26,25 @@ return state.filter(item=>item.id!==action.payload)
         }
       })
     },
-    totalAmt(state,action){
+    totalAmtadd(state,action){
       state.forEach((item)=>{
         if(item.id===action.payload){
           item.netAmt+=Number(item.price);
         }
         console.log(state)
         })
-    }
+    },
+    totalAmtremove(state,action){
+      state.forEach((item)=>{
+        if(item.id===action.payload){
+          item.netAmt-=Number(item.price);
+        }
+        console.log(state)
+        })
+    },
+   
   }
 })
 
-export const{add,remove,increaseqty,decreaseqty,totalAmt}=cartSlice.actions
+export const{add,remove,increaseqty,decreaseqty,totalAmtadd,totalAmtremove}=cartSlice.actions
 export default cartSlice.reducer

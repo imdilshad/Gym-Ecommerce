@@ -1,6 +1,6 @@
 import React from 'react'
 import {useSelector,useDispatch} from 'react-redux'
-import {remove, totalAmt} from '../../store/CartSlice'
+import {remove} from '../../store/CartSlice'
 import { useState } from 'react'
 import { useEffect } from 'react'
 function CheckOut() {

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import {useSelector,useDispatch} from 'react-redux'
 import './cart.css'
-import {decreaseqty, increaseqty, remove,totalAmt} from '../../store/CartSlice'
+import {decreaseqty, increaseqty, remove,totalAmtadd,totalAmtremove} from '../../store/CartSlice'
 import { useState } from 'react'
 
 function Cart() {
@@ -52,12 +52,12 @@ function Cart() {
                <div className='d-flex  border my-2'  key={product.id}>
                <button className='border px-2 fa-solid fa-minus' onClick={()=>{
                   dispatch(decreaseqty(product.id))
-                  dispatch(totalAmt(product.id))
+                  dispatch(totalAmtremove(product.id))
                 }}></button>
                  <button className='border px-2'>{product.quantity}</button>
                 <button className='border px-2 fa-solid fa-plus' onClick={()=>{
                   dispatch(increaseqty(product.id))
-                  dispatch(totalAmt(product.id))
+                  dispatch(totalAmtadd(product.id))
                 }}>
                 </button>
                 
