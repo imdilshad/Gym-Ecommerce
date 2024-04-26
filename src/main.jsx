@@ -14,6 +14,7 @@ import store from './store/Store.js'
 import Products from './components/Products/Products.jsx'
 import AboutUS from './components/aboutUs/AboutUS.jsx'
 import ContactUs from './components/contact/ContactUs.jsx'
+import Categories from './components/categories/Categories.jsx'
 
 const router=createBrowserRouter([{
   path:'/',
@@ -33,6 +34,10 @@ const router=createBrowserRouter([{
 {
   path:'cart',
   element:<Cart/>
+},
+{
+  path:'categories',
+  element:<Categories/>
 },
 {
   path:'cart/checkout',
