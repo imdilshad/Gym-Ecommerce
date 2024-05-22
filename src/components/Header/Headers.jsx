@@ -31,7 +31,7 @@ function Headers() {
               <NavLink className= 'nav-link ' activeClassName='active text-danger' aria-current="page" to={''} >Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to={'categories'} href="#categories">Categories</NavLink>
+              <NavLink className="nav-link"  to={'categories'} >Categories</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link "to={'products'}>Product</NavLink>

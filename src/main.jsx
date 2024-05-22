@@ -15,6 +15,7 @@ import Products from './components/Products/Products.jsx'
 import AboutUS from './components/aboutUs/AboutUS.jsx'
 import ContactUs from './components/contact/ContactUs.jsx'
 import Categories from './components/categories/Categories.jsx'
+import ProductDetail from './components/Products/ProductDetail.jsx'
 
 const router=createBrowserRouter([{
   path:'/',
@@ -46,6 +47,10 @@ const router=createBrowserRouter([{
 {
   path:'products',
   element:<Products/>
+},
+{
+  path:'/product/:id',
+  element:<ProductDetail/>
 },
 {
   path:'aboutUS',

@@ -50,12 +50,9 @@ function Products() {
             handleAdd(product)
            
           }}><i className="fa-solid fa-cart-shopping"></i> Add</button>
-         <Link to={'cart/checkout'}> <button className='btn btn-outline-danger rounded-pill fw-bold cart1 px-3'
-         onClick={()=>{
-          handleAdd(product)
-         
-        }}
-         >Buy</button></Link>
+         <Link to={`/product/${product.id}`}> <button className='btn btn-outline-danger rounded-pill fw-bold cart1 px-3'>
+          Buy
+          </button></Link>
           </div>
           </div>
        </div>
